@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* GLOBAL */
+
+.contenedor {
+  width: 37.5rem;
+  height: 66.7rem;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+@media (min-width: 376px) {
+  .contenedor {
+    width: 76.8rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .contenedor {
+    width: 96rem;
+  }
+}
+
+/* INICIO */
+.inicio {
+  width: 37.5rem;
+  height: 5.4rem;
+  background-color: #c4c4c4;
+}
+
+@media (min-width: 376px) {
+  .inicio {
+    width: 76.8rem;
+  }
+}
+@media (min-width: 769px) {
+  .inicio {
+    width: 96rem;
+    height: 7.2rem;
+  }
+}
+/* CUADRITOS */
+.rosa {
+  width: 7.5rem;
+  height: 2.7rem;
+  background-color: rosybrown;
+}
+.celeste {
+  width: 7.5rem;
+  height: 2.7rem;
+  background-color: cadetblue;
+}
+
+@media (min-width: 376px) {
+}

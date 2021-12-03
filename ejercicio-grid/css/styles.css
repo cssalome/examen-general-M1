@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  width: 71.8rem;
+  height: 60.9rem;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  padding: 2.8rem 3.3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3.2rem;
+}
+
+.rosa {
+  background-color: #ff8181;
+  width: 19.6rem;
+  height: 3;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.gris {
+  background-color: #646464;
+}
+
+.celeste {
+  background-color: #70aaff;
+  grid-column: 1/4;
+}
